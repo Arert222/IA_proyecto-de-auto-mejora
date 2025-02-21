@@ -1,0 +1,4 @@
+# Dependencias específicas para auto-mejora
+mccabe==0.7.0
+psutil==5.9.6
+astunparse==1.6.3

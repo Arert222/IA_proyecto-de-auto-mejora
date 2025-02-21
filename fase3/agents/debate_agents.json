@@ -1,0 +1,25 @@
+{
+    "debate_agents": [
+        {
+            "name": "Security Expert",
+            "model": "microsoft/phi-3-mini-4k-instruct",
+            "temperature": 0.4,
+            "strategy": "defensive",
+            "focus": ["security", "edge cases"]
+        },
+        {
+            "name": "Performance Guru",
+            "model": "TinyLlama/TinyLlama-1.1B-Chat-v1.0",
+            "temperature": 0.6,
+            "strategy": "aggressive",
+            "focus": ["time complexity", "memory usage"]
+        },
+        {
+            "name": "Code Artist",
+            "model": "microsoft/phi-3-mini-4k-instruct",
+            "temperature": 0.5,
+            "strategy": "collaborative",
+            "focus": ["readability", "maintainability"]
+        }
+    ]
+}

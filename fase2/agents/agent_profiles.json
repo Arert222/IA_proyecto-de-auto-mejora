@@ -1,0 +1,22 @@
+{
+    "agents": [
+        {
+            "name": "Eficiencia Extrema",
+            "model": "microsoft/phi-3-mini-4k-instruct",
+            "temperature": 0.3,
+            "max_length": 300
+        },
+        {
+            "name": "Creativo",
+            "model": "TinyLlama/TinyLlama-1.1B-Chat-v1.0",
+            "temperature": 0.7,
+            "max_length": 500
+        },
+        {
+            "name": "Práctico",
+            "model": "microsoft/phi-3-mini-4k-instruct",
+            "temperature": 0.5,
+            "max_length": 400
+        }
+    ]
+}

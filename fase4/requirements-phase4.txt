@@ -1,0 +1,4 @@
+# Nuevas dependencias para Fase 4
+python-jsonrpc==1.1.2
+pygls==0.12.4
+roberta-hate-speech-classifier @ git+https://github.com/facebookresearch/dynabench
